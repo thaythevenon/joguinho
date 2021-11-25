@@ -1,12 +1,12 @@
 import cx_Freeze
+
 executables = [cx_Freeze.Executable(
-    script="jogo.py", icon="assets/ironIcon.ico")]
+    script="jogo.py", icon="jogo/ironIcon.png")]
 
 cx_Freeze.setup(
-    name="Iron Man Dead",
+    name="Sponge Bob",
     options={"build_exe": {"packages": ["pygame"],
-                           "include_files": ["assets"]
+                           "include_files": ["jogo"]
                            }},
     executables=executables
 )
-
