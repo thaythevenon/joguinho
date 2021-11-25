@@ -1,7 +1,7 @@
 import cx_Freeze
 
 executables = [cx_Freeze.Executable(
-    script="jogo.py", icon="jogo/ironIcon.png")]
+    script="jogo.py", icon="jogo/icone.png")]
 
 cx_Freeze.setup(
     name="Sponge Bob",
